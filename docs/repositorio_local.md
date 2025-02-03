@@ -34,4 +34,10 @@ En este caso por demostración elegí el nombre "Nombre del commit 1", y como se
 
 Podemos ver como *git log* nos da más información como el autor, su correo, la fecha, etc. En cambio con *git log --oneline* Solo vemos el código de 7 dígitos del commit, la rama en donde se ubica y su nombre, esté código de 7 dígitos sirve para acciones más avanzadas que no cubriremos aquí como cambiar el nombre, regresarse a otra versión, combinar ramas, etc.
 
+Nota:Adicionalmente hay un archivo llamado *.gitignore* El cual al ser creado con este nombre adquiere propiedades especiales como ser un archivo oculto y un archivo **.git** este nos servirá para a la hora de crear un repositorio remoto "ignorar" como su nombre lo indica archivos que tengan por nombre lo que escribamos dentro del mismo.
+
+![Gititnore](../images/GITIGNORE.png)
+
+En este caso podemos apreciar que en la linea 1 se encuentra el archivo "imagen0.c" el cual no se podrá encontrar el todo el repositorio, debido a que a la hora de hacer commit será ignorado todas las veces.
+
 Eso es todo, para regresar al README click aquí: [Regresar](../README.md)
