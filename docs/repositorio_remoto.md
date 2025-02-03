@@ -9,8 +9,11 @@ A continuación se nos darán a escoger varias opciones, en las cuales podremos 
 Seleccionaremos las opciones que más nos convengan, en este caso yo elegí "GitHub.com" donde lo uso, "HTTPS" como mi protocolo preferido, elegí autenticar "Git" con mis credenciales de "GitHub" e iniciar sesión con un navegador web. Acto seguido me dan un código y al presionar enter se debe abrir el navegador para iniciar sesión y colocar el código, autorizamos a "GitHub" a conectarse con nuestra cuenta y con "GitHubCli" y finalmente colocamos nuestra contraseña, debería ser algo como esto: 
 
 ![gh3](../images/gh3.png)
+
 ![gh4](../images/Gh4.png)
+
 ![gh5](../images/gh5.png)
+
 ![gh6](../images/gh6.png)
 
 Una vez hecho esto ya podremos usar la siguiente línea de comando para crear nuestro repositorio en linea "*gh repo create demo2 --public --source=. --push --remote=upstream*". Esta línea configura varios parámetros de una sola vez, "*gh repo create*" sirve para dar la orden de crear el repositio en la página dándole por nombre lo que coloquemos en la siguiente parte en este caso "*demo2*". La parte "*--public*" hace que nuestro repositorio se cree siendo de carácter público, "*--source=.*" sirve para definir donde quedará el repositorio, en este caso al usar el archivo "*.*" se creará en la carpeta en la que estemos al momento de crearlo, "*--push*" sirve para enviar los commits que tengamos actualmente a la nube y "*--remote=upstream*" sirve para asignar el nombre de la conexión remota, en este caso "*Upstream*" este nombre se puede modificar a voluntad sin mayor dificultad. Al usar el comando nos saldrá lo siguiente:
@@ -40,5 +43,3 @@ Ahora sí, nos dice que nuestras *ramas* están ambas al día, para ver esto un 
  Cosa que resumidamente significa que no hemos guardado o "subido" los cambios a "*upstream/Main*"
 
  Eso es todo, para regresar al README click aquí: [Regresar](/README.md)
- 
-  

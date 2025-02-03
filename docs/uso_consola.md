@@ -29,15 +29,21 @@ Para usar *cat* solo debemos colocar *cat* y el nombre del archivo, lo mismo par
 ![cat](../images/CAT.png)
 
 El caso de vim es un poco más especial, ya que nos abrirá una interfaz nueva, pero la manera de colocar el comando al inicio es la misma que la anterior.
+
 ![vim](../images/VIM.png)
+
 Entonces cuando presionemos enter nos saldrá la siguiente interfaz: 
+
 ![vimint](../images/VIM%20INT.png)
+
 Aquí debemos presionar la tecla I para acceder al modo insert, en el cual podremos modificar el archivo y escribir en el. Para salir de este modo, presionaremos la tecla ESC. El modo *insert* se ve algo así:
+
 ![vimins](../images/VIM%20INS.png)
 
 Para poder guardar los cambios tenemos acceso a unos comandos especiales de la interfaz, estos serían "*:x*, *:q* y *:q!*, estos funcionan de la siguiente forma *:x* nos permite salir y guardar, *:q* salir sin guardar y *:q!* forzar la salida y no guardar. En este caso editaremos, usaremos :x y veremos los cambios con *cat*.
 
 ![vimx](../images/VIM%20X.png)
+
 ![cat2](../images/CAT%202%20EDIT.png)
 
 Eso sería todo, para regresar al archivo README puedes hacer click aquí: [Regresar](../README.md)
